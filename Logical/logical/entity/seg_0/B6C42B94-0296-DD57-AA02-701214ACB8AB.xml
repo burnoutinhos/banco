@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6C42B94-0296-DD57-AA02-701214ACB8AB" name="T_Burnoutinhos_Suggestion">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:21:31 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_suggestion" id="F38132AA-DF27-7C62-47B6-3BEF43A9A0A6">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:21:39 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="suggestion_desc" id="F162450F-879E-5DF8-2264-FF0212275FFF">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:21:50 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="B152A3EB-F07E-FA25-8DD3-5BAC4037846A">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:22:13 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_todo" id="CD9A37B8-EA15-506E-A262-A7951B01F6BE">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:00:45 UTC</createdTime>
+<generatorID>C2F61947-7F9C-4A58-0230-7178B962AEAD</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<referedAttribute>D87E223C-0729-9B4A-A309-0951595A07A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CC03F81-4060-9E01-6421-75BD19E3EE24" name="Suggestion PK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:21:49 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F38132AA-DF27-7C62-47B6-3BEF43A9A0A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

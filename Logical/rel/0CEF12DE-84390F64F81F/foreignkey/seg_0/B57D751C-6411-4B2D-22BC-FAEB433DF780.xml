@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B57D751C-6411-4B2D-22BC-FAEB433DF780" containerWithKeyObject="E74DDF8C-7385-80AC-1D40-002BDC58E87B" localFKIndex="547F6C7D-2382-D24A-5099-1F725F934DE3" name="T_Burnoutinhos_TimeBlock_T_Burnoutinhos_ToDo_FK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>E1989BBA-006E-A9A7-96F1-B9312A4528D0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<referredTableLongName>T_Burnoutinhos_ToDo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D5838C8-2FD7-F9EE-47A3-83020EA8C532</referredTableID>
+<keyObject>C5FF1A9F-6A83-39F2-5F9A-44513375486D</keyObject>
+<referredKeyID>C5FF1A9F-6A83-39F2-5F9A-44513375486D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_todo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

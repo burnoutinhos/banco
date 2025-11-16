@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5DCE476-AC12-4A9D-C053-D22E88F234F3" name="T_Burnoutinhos_ToDo">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:14:56 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_todo" id="D87E223C-0729-9B4A-A309-0951595A07A9">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:15:05 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_todo" id="84AF4FD7-9845-0734-0CCA-0AB02AF831DE">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:15:18 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_todo" id="6BB118C1-C597-7AED-077C-93385C6B1735">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:16:48 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_todo" id="7D575E7D-132A-55DD-028E-DA4D26F3B12A">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:17:01 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="86C5F71B-69B4-D180-FF7D-BBF7BF314129">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:17:14 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="CB6AA87C-FD4C-09F9-972F-EBBBD8AA5DA0">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:17:37 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_completed" id="EABF806A-1581-4570-0550-DB3070B977E1">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:17:53 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="20C518F6-6F7F-9930-922E-B0666504B2DE">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:27:34 UTC</createdTime>
+<generatorID>9C3E619A-FC92-28CA-C17B-B989816792F7</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<referedAttribute>DF6864A2-0086-29A8-3132-AD4F8B87F4BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="587C37DB-068C-2394-952D-7B15D59B695D" name="ToDo PK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:15:17 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D87E223C-0729-9B4A-A309-0951595A07A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

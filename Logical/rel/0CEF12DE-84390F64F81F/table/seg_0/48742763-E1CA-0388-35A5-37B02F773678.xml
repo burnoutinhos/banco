@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48742763-E1CA-0388-35A5-37B02F773678" name="T_Burnoutinhos_Notification">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>80A7A8ED-49A0-D931-47AC-4DFBCB8484EB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_notif" id="49C95B2A-3EBA-3F7C-02FD-8279EC827D4C">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>C8DDB3FC-E6CD-5F30-7D21-3EA72735068C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="59AE352C-4B90-8A9A-951F-43DDD87A7DAE">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>C703F50B-6431-C049-3981-38FC0F800086</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="message_notif" id="74FBD2C4-1DC6-0468-39FF-4E7C6C5E6192">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>34BF7405-18C0-7D76-E283-7BCF73EBD0BF</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="68E9DC5C-3016-44C3-28D2-B65F1CBE796A">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>4A115CBA-57FA-80E0-DFD0-9D746D70C934</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_user" id="25B94DC6-5E0F-032D-846C-15EDD70992F1">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>4882B417-5F39-DCD7-9D83-BF9DE308C809</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3403C506-145A-0408-3269-9E19B1855FFA" referredColumn="8BB45627-0C58-C9B7-4894-C9E2C07E4894"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5BB134F-BDC7-974B-E151-04763393FE67" name="T_Burnoutinhos_Notification_PK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>D1EAFB9B-86EE-54D6-325A-CE3C19B644F8</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C95B2A-3EBA-3F7C-02FD-8279EC827D4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D78AE577-A03F-4EB5-E35F-7B2917A1CEFA" name="T_Burnoutinhos_Notification_T_Burnoutinhos_User_FK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>54344C39-6DFA-6AD1-E312-82DFCE9CF726</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25B94DC6-5E0F-032D-846C-15EDD70992F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

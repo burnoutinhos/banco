@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E74DDF8C-7385-80AC-1D40-002BDC58E87B" name="T_Burnoutinhos_TimeBlock">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>73602527-FDB8-908D-25B4-9F77CD9C7535</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_timebk" id="1779EC0C-FF6D-17BF-DF71-365F1FA77DC8">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>4AC273B2-0F65-E3F5-7113-F282BDFF15AF</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_timebk" id="6FCCA723-E419-77C8-2E6B-D48C2E2E1D49">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>2189E878-5942-631F-0B6C-87631BF509F6</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time_count" id="EE714777-260E-F5BC-CDAE-546BDBBBC4DE">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>552F2460-2AF0-8B5A-468D-E867268753FA</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_timebk" id="DE2D8ED3-0E6C-7471-4FF3-36E5FE59F03F">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>4899449C-9437-016E-CB1E-EECDB8BDBF34</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_timebk" id="9836986E-BDF7-C6D0-E563-B167FBD7D55C">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>1EAA08AD-3D9C-4EFC-9F83-7A871D545FE4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="8363386A-9094-ECDF-FDC1-F22A3E119C51">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>60F11404-0870-6323-D4CE-AB87DA19D816</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_timebk" id="95EDD360-B1D7-D565-DD19-C0098644289B">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>C4D773C5-26E8-A7BE-AA10-0CD212751CDB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_user" id="678A8549-4E9E-A372-3AFA-7D114B12F56A">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>07A0B4A5-0ACD-1AEC-A639-2162C7CA2E05</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88F3404C-C67E-8BC9-438A-0B5BA7D3D275" referredColumn="8BB45627-0C58-C9B7-4894-C9E2C07E4894"/>
+</associations>
+</Column>
+<Column name="type_timer" id="28B4BFEB-AF7A-E765-9C7C-62D23A759F43">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>5009450B-1C72-3FCD-D914-99FA5AC5A674</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_todo" id="38130EB5-C262-03A1-79C9-BBDCE5CD0520">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>4926E739-A3F1-D2E7-0C9A-9E012D006320</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B57D751C-6411-4B2D-22BC-FAEB433DF780" referredColumn="DD55FB70-FC66-1CD4-8025-277B3F2AF4B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFC5DE42-C8CE-8A11-2137-F5AFFF7FF7D0" name="T_Burnoutinhos_TimeBlock_PK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>896C9D9D-C814-399B-D165-ADF363AE2880</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1779EC0C-FF6D-17BF-DF71-365F1FA77DC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92F60261-7D6B-9D26-930D-2128AE54FA0F" name="T_Burnoutinhos_TimeBlock_T_Burnoutinhos_User_FK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>759CA88D-45EA-E4A4-FCC7-AA67D985A336</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="678A8549-4E9E-A372-3AFA-7D114B12F56A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="547F6C7D-2382-D24A-5099-1F725F934DE3" name="T_Burnoutinhos_TimeBlock_T_Burnoutinhos_ToDo_FK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-14 15:15:45 UTC</createdTime>
+<generatorID>E1989BBA-006E-A9A7-96F1-B9312A4528D0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38130EB5-C262-03A1-79C9-BBDCE5CD0520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

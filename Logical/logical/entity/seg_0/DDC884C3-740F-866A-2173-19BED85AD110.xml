@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDC884C3-740F-866A-2173-19BED85AD110" name="T_Burnoutinhos_User">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:13:03 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_user" id="DF6864A2-0086-29A8-3132-AD4F8B87F4BC">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:13:17 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_user" id="210B6EEF-46E4-0C2A-DA58-41676CBC584C">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:13:35 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_user" id="F904D84F-1550-4754-AB6A-D4252845FBC6">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:13:50 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="language" id="F0A8C08A-44BD-3EC9-E6C0-B647A0C74848">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:14:09 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profile_image" id="712E1BCC-BBAE-967A-A57D-4210E5929E35">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:14:39 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADF596D7-8718-1D59-F181-A65E2AAC3F76" name="User PK">
+<createdBy>juman</createdBy>
+<createdTime>2025-11-13 20:13:33 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="0CEF12DE-0781-71A1-F5EB-84390F64F81F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF6864A2-0086-29A8-3132-AD4F8B87F4BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
