@@ -11,7 +11,7 @@ ALTER TABLE t_burnoutinhos_notification ADD CONSTRAINT t_burnoutinhos_notificati
 
 CREATE TABLE t_burnoutinhos_suggestion (
     id_suggestion    NUMBER(10) NOT NULL,
-    suggestion_desc  CLOB NOT NULL,
+    suggestion_desc  VARCHAR2(250) NOT NULL,
     created_at       TIMESTAMP NOT NULL,
     id_todo          NUMBER(10) NOT NULL
 );

@@ -154,17 +154,229 @@ END;
 /
 
 
-begin 
-    prc_insert_todo(1, 'Estudar SQL', DATE '2025-01-10', DATE '2025-01-10', SYSTIMESTAMP, SYSTIMESTAMP, 'N', 1);
-    prc_insert_todo(2, 'Treinar Python', DATE '2025-01-11', DATE '2025-01-11', SYSTIMESTAMP, SYSTIMESTAMP, 'N', 2);
-    prc_insert_todo(3, 'Reunião com equipe', DATE '2025-01-12', DATE '2025-01-12', SYSTIMESTAMP, SYSTIMESTAMP, 'S', 3);
-    prc_insert_todo(4, 'Criar dashboard no Power BI', DATE '2025-01-13', DATE '2025-01-14', SYSTIMESTAMP, SYSTIMESTAMP, 'N', 4);
-    prc_insert_todo(5, 'Ler artigo sobre Big Data', DATE '2025-01-15', DATE '2025-01-15', SYSTIMESTAMP, SYSTIMESTAMP, 'N', 5);
-    prc_insert_todo(6, 'Organizar tarefas da semana', DATE '2025-01-09', DATE '2025-01-09', SYSTIMESTAMP, SYSTIMESTAMP, 'S', 6);
-    prc_insert_todo(7, 'Praticar exercícios', DATE '2025-01-10', DATE '2025-01-10', SYSTIMESTAMP, SYSTIMESTAMP, 'S', 7);
-    prc_insert_todo(8, 'Criar rotina de estudos', DATE '2025-01-11', DATE '2025-01-12', SYSTIMESTAMP, SYSTIMESTAMP, 'N', 8);
-    prc_insert_todo(9, 'Trabalhar no projeto pessoal', DATE '2025-01-14', DATE '2025-01-15', SYSTIMESTAMP, SYSTIMESTAMP, 'N', 9);
-    prc_insert_todo(10, 'Revisar código', DATE '2025-01-12', DATE '2025-01-12', SYSTIMESTAMP, SYSTIMESTAMP, 'S', 10);
+BEGIN
+    prc_insert_todo(1, 'Estudar SQL',
+        TO_TIMESTAMP('2025-01-10 08:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-10 09:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-10 07:55:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-10 09:05:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'N', 1);
 
-end;
+    prc_insert_todo(2, 'Treinar Python',
+        TO_TIMESTAMP('2025-01-11 10:15:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-11 11:45:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-11 10:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-11 11:50:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'N', 2);
+
+    prc_insert_todo(3, 'Reunião com equipe',
+        TO_TIMESTAMP('2025-01-12 14:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-12 15:30:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-12 13:50:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-12 15:35:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'S', 3);
+
+    prc_insert_todo(4, 'Criar dashboard no Power BI',
+        TO_TIMESTAMP('2025-01-13 09:20:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-13 12:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-13 09:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-13 12:05:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'N', 4);
+
+    prc_insert_todo(5, 'Ler artigo sobre Big Data',
+        TO_TIMESTAMP('2025-01-14 16:10:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-14 17:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-14 16:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-14 17:05:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'N', 5);
+
+    prc_insert_todo(6, 'Organizar tarefas da semana',
+        TO_TIMESTAMP('2025-01-15 07:30:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-15 08:10:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-15 07:25:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-15 08:15:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'S', 6);
+
+    prc_insert_todo(7, 'Praticar exercícios',
+        TO_TIMESTAMP('2025-01-16 18:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-16 19:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-16 17:50:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-16 19:05:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'S', 7);
+
+    prc_insert_todo(8, 'Criar rotina de estudos',
+        TO_TIMESTAMP('2025-01-17 13:40:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-17 14:30:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-17 13:30:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-17 14:35:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'N', 8);
+
+    prc_insert_todo(9, 'Trabalhar no projeto pessoal',
+        TO_TIMESTAMP('2025-01-18 20:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-18 22:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-18 19:50:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-18 22:05:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'N', 9);
+
+    prc_insert_todo(10, 'Revisar código',
+        TO_TIMESTAMP('2025-01-19 11:00:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-19 12:15:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-19 10:50:00', 'YYYY-MM-DD HH24:MI:SS'),
+        TO_TIMESTAMP('2025-01-19 12:20:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'S', 10);
+END;
 /
+
+select * from t_burnoutinhos_todo;
+
+
+CREATE OR REPLACE PROCEDURE prc_insert_suggestion (
+    p_id_suggestion  IN NUMBER,
+    p_suggestion_desc IN VARCHAR2,
+    p_created_at      IN TIMESTAMP,
+    p_id_todo         IN NUMBER
+) AS
+BEGIN
+    INSERT INTO t_burnoutinhos_suggestion (
+        id_suggestion,
+        suggestion_desc,
+        created_at,
+        id_todo 
+    ) VALUES (
+        p_id_suggestion,
+        p_suggestion_desc,
+        p_created_at,
+        p_id_todo 
+    );
+END;
+/
+
+BEGIN
+    prc_insert_suggestion(1, 'Adicionar mais detalhes ao estudo de SQL.',
+        TO_TIMESTAMP('2025-01-10 09:10:00', 'YYYY-MM-DD HH24:MI:SS'), 1);
+
+    prc_insert_suggestion(2, 'Criar pequenos scripts para praticar Python.',
+        TO_TIMESTAMP('2025-01-11 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 2);
+
+    prc_insert_suggestion(3, 'Registrar pautas importantes da reunião.',
+        TO_TIMESTAMP('2025-01-12 15:40:00', 'YYYY-MM-DD HH24:MI:SS'), 3);
+
+    prc_insert_suggestion(4, 'Adicionar segmentação no dashboard.',
+        TO_TIMESTAMP('2025-01-13 12:10:00', 'YYYY-MM-DD HH24:MI:SS'), 4);
+
+    prc_insert_suggestion(5, 'Pesquisar autores recomendados sobre Big Data.',
+        TO_TIMESTAMP('2025-01-14 17:20:00', 'YYYY-MM-DD HH24:MI:SS'), 5);
+
+    prc_insert_suggestion(6, 'Criar checklist semanal de tarefas.',
+        TO_TIMESTAMP('2025-01-15 08:20:00', 'YYYY-MM-DD HH24:MI:SS'), 6);
+
+    prc_insert_suggestion(7, 'Incluir alongamentos antes dos exercícios.',
+        TO_TIMESTAMP('2025-01-16 19:10:00', 'YYYY-MM-DD HH24:MI:SS'), 7);
+
+    prc_insert_suggestion(8, 'Organizar rotina de estudos por prioridades.',
+        TO_TIMESTAMP('2025-01-17 14:40:00', 'YYYY-MM-DD HH24:MI:SS'), 8);
+
+    prc_insert_suggestion(9, 'Criar milestones para o projeto pessoal.',
+        TO_TIMESTAMP('2025-01-18 22:15:00', 'YYYY-MM-DD HH24:MI:SS'), 9);
+
+    prc_insert_suggestion(10, 'Utilizar ferramentas de lint no código.',
+        TO_TIMESTAMP('2025-01-19 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 10);
+END;
+/
+
+
+CREATE OR REPLACE PROCEDURE prc_insert_timeblock (
+    p_id_timebk     IN NUMBER,
+    p_name_timebk   IN VARCHAR2,
+    p_time_count    IN NUMBER,
+    p_max_timebk    IN NUMBER,
+    p_start_timebk  IN NUMBER,
+    p_created_at    IN TIMESTAMP,
+    p_type_timebk   IN VARCHAR2,
+    p_id_user       IN NUMBER,
+    p_type_timer    IN VARCHAR2,
+    p_id_todo       IN NUMBER
+) AS
+BEGIN
+    INSERT INTO t_burnoutinhos_timeblock (
+        id_timebk,
+        name_timebk,
+        time_count,
+        max_timebk,
+        start_timebk,
+        created_at,
+        type_timebk,
+        id_user,
+        type_timer,
+        id_todo 
+    ) VALUES (
+        p_id_timebk,
+        p_name_timebk,
+        p_time_count,
+        p_max_timebk,
+        p_start_timebk,
+        p_created_at,
+        p_type_timebk,
+        p_id_user,
+        p_type_timer,
+        p_id_todo 
+    );
+END;
+/
+
+BEGIN
+    prc_insert_timeblock(1, 'Foco SQL',
+        25, 50, 0,
+        TO_TIMESTAMP('2025-01-10 08:10:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'FOCUS', 1, 'POMODORO', 1);
+
+    prc_insert_timeblock(2, 'Python Prática',
+        15, 45, 0,
+        TO_TIMESTAMP('2025-01-11 10:20:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'FOCUS', 2, 'COUNTDOWN', 2);
+
+    prc_insert_timeblock(3, 'Reunião : Intervalo',
+        5, 15, 0,
+        TO_TIMESTAMP('2025-01-12 15:35:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'BREAK', 3, 'STOPWATCH', 3);
+
+    prc_insert_timeblock(4, 'Dashboard Power BI',
+        40, 60, 0,
+        TO_TIMESTAMP('2025-01-13 09:30:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'FOCUS', 4, 'POMODORO', 4);
+
+    prc_insert_timeblock(5, 'Leitura Big Data',
+        20, 30, 0,
+        TO_TIMESTAMP('2025-01-14 16:15:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'FOCUS', 5, 'COUNTDOWN', 5);
+
+    prc_insert_timeblock(6, 'Planejamento semanal',
+        10, 25, 0,
+        TO_TIMESTAMP('2025-01-15 07:40:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'FOCUS', 6, 'STOPWATCH', 6);
+
+    prc_insert_timeblock(7, 'Exercícios : Aquecimento',
+        8, 15, 0,
+        TO_TIMESTAMP('2025-01-16 18:05:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'BREAK', 7, 'COUNTDOWN', 7);
+
+    prc_insert_timeblock(8, 'Rotina de Estudos',
+        30, 50, 0,
+        TO_TIMESTAMP('2025-01-17 13:45:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'FOCUS', 8, 'POMODORO', 8);
+
+    prc_insert_timeblock(9, 'Projeto Pessoal : Sprint',
+        45, 90, 0,
+        TO_TIMESTAMP('2025-01-18 20:10:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'FOCUS', 9, 'STOPWATCH', 9);
+
+    prc_insert_timeblock(10, 'Revisão de Código : Foco',
+        25, 40, 0,
+        TO_TIMESTAMP('2025-01-19 11:10:00', 'YYYY-MM-DD HH24:MI:SS'),
+        'FOCUS', 10, 'POMODORO', 10);
+END;
+/
+
+select * from t_burnoutinhos_timeblock;
+
+commit;
