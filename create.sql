@@ -40,6 +40,7 @@ CREATE TABLE t_burnoutinhos_todo (
     end_todo      DATE NOT NULL,
     created_at    TIMESTAMP NOT NULL,
     updated_at    TIMESTAMP NOT NULL,
+    description   VARCHAR2(2000),
     is_completed  CHAR(1) NOT NULL,
     id_user       NUMBER(10) NOT NULL
 );
@@ -51,7 +52,8 @@ CREATE TABLE t_burnoutinhos_user (
     name_user      VARCHAR2(150) NOT NULL,
     email_user     VARCHAR2(150) NOT NULL,
     language       CHAR(5) NOT NULL,
-    profile_image  VARCHAR2(250) NOT NULL
+    profile_image  VARCHAR2(250) NOT NULL,
+    password       VARCHAR2(8) NOT NULL
 );
 
 ALTER TABLE t_burnoutinhos_user ADD CONSTRAINT t_burnoutinhos_user_pk PRIMARY KEY ( id_user );
